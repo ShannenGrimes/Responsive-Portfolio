@@ -69,9 +69,9 @@ a:active {
   font-weight: bold;
 }
 
-/* 3.0 PAGE & TOP CONSTRUCTION */
+/* 3.0 HTML */
 body {
-  background-image: url("../images/concrete_seamless.png");
+  background-image: url("assets/images/background.png");
   width: 1355px;
   margin: 0 auto;
 }
@@ -248,7 +248,7 @@ article {
   margin-top: 126px;
 }
 .hang {
-  background-image: url("../images/port_1.jpeg");
+  background-image: url("assets/images/hangman.jpeg");
   background-repeat: no-repeat;
   background-size: 264px 196px;
   width: 264px;
@@ -257,7 +257,7 @@ article {
   float: left;
 }
 .rpg {
-  background-image: url("../images/port_2.jpeg");
+  background-image: url("assests/images/rpg.jpeg");
   background-repeat: no-repeat;
   background-size: 264px 196px;
   width: 264px;
@@ -266,7 +266,7 @@ article {
   float: right;
 }
 .trivia {
-  background-image: url("../images/port_3.jpeg");
+  background-image: url("assets/images/trivia.jpeg");
   background-repeat: no-repeat;
   background-size: 264px 196px;
   width: 264px;
@@ -276,7 +276,7 @@ article {
   float: left;
 }
 .rutgers {
-  background-image: url("../images/port_5.jpeg");
+  background-image: url("assets/images/rutgers.jpeg");
   background-repeat: no-repeat;
   background-size: 264px 196px;
   width: 264px;
@@ -286,7 +286,7 @@ article {
   float: right;
 }
 .rock {
-  background-image: url("../images/port_4.jpeg");
+  background-image: url("assets/images/rock.jpeg");
   background-repeat: no-repeat;
   background-size: 264px 196px;
   width: 264px;

@@ -1,6 +1,6 @@
 /*These are the styles for the HTML*/
 
-/* 1.0 TEXT & FONTS */
+/* 1.0 Style */
 h1 {
   font-family: "Georgia", Times, "Times New Roman", serif;
   font-weight: bold;
@@ -25,7 +25,7 @@ p {
   color: #777777;
 }
 
-/* 2.0 LINK STYLING */
+/* 2.0 Nav Styling */
 .navbar {
   margin-left: 870px;
   padding-top: 30px;
@@ -38,12 +38,12 @@ li {
   padding-right: 18px;
 }
 
-/* 2.1 UNVISITED */
+/* 2.1 Link for unvisited */
 a:link {
   text-decoration: none;
 }
 
-/* 2.2 VISITED */
+/* 2.2 Link for visited */
 a:visited {
   color: #777777;
   text-decoration: none;
@@ -51,7 +51,7 @@ a:visited {
   font-size: 16px;
 }
 
-/* 2.3 MOUSE OVER */
+/* 2.3 Hover */
 a:hover {
   color: #777777;
   text-decoration: none;
@@ -60,7 +60,7 @@ a:hover {
   font-weight: bold;
 }
 
-/* 2.4 SELECTED */
+/* 2.4 Selected */
 a:active {
   color: #777777;
   text-decoration: none;
@@ -71,7 +71,7 @@ a:active {
 
 /* 3.0 HTML */
 body {
-  background-image: url("assets/images/background.png");
+  background-image: url("background.png");
   width: 1355px;
   margin: 0 auto;
 }
@@ -248,7 +248,7 @@ article {
   margin-top: 126px;
 }
 .hang {
-  background-image: url("assets/images/hangman.jpeg");
+  background-image: url("hangman.jpeg");
   background-repeat: no-repeat;
   background-size: 264px 196px;
   width: 264px;
@@ -257,7 +257,7 @@ article {
   float: left;
 }
 .rpg {
-  background-image: url("assests/images/rpg.jpeg");
+  background-image: url("rpg.jpeg");
   background-repeat: no-repeat;
   background-size: 264px 196px;
   width: 264px;
@@ -266,7 +266,7 @@ article {
   float: right;
 }
 .trivia {
-  background-image: url("assets/images/trivia.jpeg");
+  background-image: url("trivia.jpeg");
   background-repeat: no-repeat;
   background-size: 264px 196px;
   width: 264px;
@@ -276,7 +276,7 @@ article {
   float: left;
 }
 .rutgers {
-  background-image: url("assets/images/rutgers.jpeg");
+  background-image: url("rutgers.jpeg");
   background-repeat: no-repeat;
   background-size: 264px 196px;
   width: 264px;
@@ -286,8 +286,7 @@ article {
   float: right;
 }
 .rock {
-  background-image: url("assets/images/rock.jpeg");
-  background-repeat: no-repeat;
+  background: url("images/rock.jpeg") no-repeat;
   background-size: 264px 196px;
   width: 264px;
   height: 196px;
